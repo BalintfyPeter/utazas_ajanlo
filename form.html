@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utazás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="form_body" class="responsive">
+    <script src="script.js"></script>
+    <form>
+        <table id="form_table">
+            <caption>Jegyvásárlás</caption>
+            <tr>
+                <th><label for="name">Név <span>*</span></label></th>
+                <th><input type="text" required></th>
+            </tr>
+
+            <tr>
+                <th><label for="date">Születési idő</label></th>
+                <th><input type="date"></th>
+            </tr>
+
+            <tr>
+                <th><label for="number">Telefonszám</label><span>*</span></th>
+                <th>
+                    <select name="num" id="num" required>
+                        <option value="36">36</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="25">25</option>
+                        <option value="23">23</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="1">1</option>
+                        <option value="38">38</option>
+                        <option value="40">40</option>
+                        <option value="42">42</option>
+                        <option value="46">46</option>
+                        <option value="50">51</option>
+                        <option value="52">52</option>
+                        <option value="56">56</option>
+                        <option value="60">60</option>
+                        <option value="62">62</option>
+                        <option value="66">66</option>
+                        <option value="69">69</option>
+                        <option value="70">70</option>
+                        <option value="71">71</option>
+                        <option value="74">74</option>
+                        <option value="76">76</option>
+                        <option value="80">80</option>
+                        <option value="81">81</option>
+                        <option value="82">82</option>
+                        <option value="83">83</option>
+                        <option value="87">87</option>
+                        <option value="90">90</option>
+                        <option value="91">91</option>
+                        <option value="94">94</option>
+                        <option value="96"></option>
+                    </select>
+                    <input type="text" required>
+                </th>
+            </tr>
+
+            <tr>
+                <th><label for="email">E-mail cím</label></th>
+                <th><input type="text"></th>
+            </tr>
+
+            <tr>
+                <th><label for="arrive">Érkezés</label><span>*</span></th>
+                <th><input type="date" required></th>
+            </tr>
+
+            <tr>
+                <th><label for="nem">Nem</label></th>
+                <th class="nem"><input type="radio">Férfi
+                    <input type="radio">Nő
+                </th>
+            </tr>
+
+            <tr>
+                <th><label for="place">Hová szeretne utazni? <span>*</span></label></th>
+                <th>
+                    <select name="place" required>
+                        <!--Belföld-->
+                        <option value="in">Blaton</option>
+                        <option value="in">aggteleki cseppkőbarang</option>
+                        <option value="in">Kékestető</option>
+                        <option value="in">Fátyol vízesés</option>
+                        <!--Külföld-->
+                        <option value="out">Gyilkos - tó</option>
+                        <option value="out">pilitvicei tavak</option>
+                        <option value="out">Zöld - tó</option>
+                        <option value="out">Tara Nemzeti Park</option>
+                        <!--Gazdag-->
+                        <option value="rich">Dubai</option>
+                        <option value="rich">Hawaii</option>
+                    </select>
+                </th>
+            </tr>
+
+            <tr>
+                <th><label for="note">Megjegyzések</label></th>
+                <th><textarea cols="30" rows="10"></textarea></th>
+            </tr>
+
+            <tr>
+                <th><input type="submit" onclick="myFunction()">
+                    <input type="reset">
+                </th>
+            </tr>
+
+        </table>
+
+        <div id="sub"></div>
+
+    </form>
+</body>
+
+</html>

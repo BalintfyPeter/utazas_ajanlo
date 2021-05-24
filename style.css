@@ -1,0 +1,122 @@
+/*Bodies*/
+
+body{
+    background: fixed;
+}
+
+#menu_body{
+    background-image: url(Images/wallpaper.jpg);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hun_body{
+    background-image: url(Images/hun_bg.jpeg);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#kulfold_body{
+    background-image: url(Images/kulfold_bg.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#form_body{
+    background-image: url(Images/form_bg.jpg);
+    background-size:cover;
+}
+
+#rich_body{
+    background-image: url(Images/rich_bg.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#end_body{
+    background-image: url(Images/end_bg.jpg);
+}
+
+/*Table*/
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Design*/
+
+.table_txt{
+    text-align: justify;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.rating{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+td{
+    border: solid black;
+    text-align: center;
+}
+
+.cim{
+    font-size: 40px;
+}
+
+.alcim{
+    font-size: 20px;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#form_table{
+    background-color: white;
+    vertical-align: middle;
+    font-size: 35px;
+    text-align: left;
+}
+
+span{
+    color: crimson;
+    font-size: 25px;
+}
+
+.nem{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+caption{
+    color: white;
+    text-decoration: underline;
+}
+
+div{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/*Responsivity*/
+
+
+/*
+desktop 1200px
+laptop  1024px
+tablet  768px
+phone   480px
+*/
